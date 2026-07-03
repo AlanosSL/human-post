@@ -1,7 +1,26 @@
 baseURL = 'https://AlanosSL.github.io/human-post/'
 locale = 'en-us'
 title = 'My New Hugo Project'
-theme = 'ananke'
+theme = 'PaperMod'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[params]
+  description = 'Cartas escritas para personas reales'
+  author = 'Human Post'
+
+[[menus.main]]
+  name = 'Inicio'
+  pageRef = '/'
+  weight = 10
+
+[[menus.main]]
+  name = 'Archivo'
+  pageRef = '/posts'
+  weight = 20
+
+[[menus.main]]
+  name = 'Sobre nosotros'
+  pageRef = '/about'
+  weight = 30

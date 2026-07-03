@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="container">
+  <header class="page-header">
+    <h1 class="page-title">{{ .Title }}</h1>
+    {{ with .Content }}<div class="page-intro">{{ . }}</div>{{ end }}
+  </header>
+  <div class="posts-list">
+    {{ range .Pages.ByDate.Reverse }}
+    <article class="post-card">
+      <div class="post-meta">
+        <time class="post-date" datetime="{{ .Date.Format "2006-01-02" }}">
+          {{ .Date.Format "02" }}<br>{{ .Date.Format "Jan" }}<br>{{ .Date.Format "2006" }}
+        </time>
+      </div>
+      <div class="post-body">
+        <h2 class="post-title">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h2>
+        {{ with .Summary }}
+        <p class="post-excerpt">{{ . | plainify | truncate 160 }}</p>
+        {{ end }}
+        <a href="{{ .RelPermalink }}" class="read-more">Leer <span aria-hidden="true">→</span></a>
+      </div>
+    </article>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
