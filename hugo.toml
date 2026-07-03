@@ -1,26 +1,53 @@
-baseURL = 'https://AlanosSL.github.io/human-post/'
-locale = 'en-us'
-title = 'My New Hugo Project'
-theme = 'PaperMod'
+baseURL = "https://alanossl.github.io/human-post/"
+languageCode = "en-us"
+title = "Human Post"
+theme = "PaperMod"
+
+# -------------------------
+#   HOME MINIMALISTA
+# -------------------------
+[params.homeInfo]
+  Title = "Human Post"
+  Content = "Pensamientos, ideas y proyectos. Un espacio minimalista para escribir."
+
+# -------------------------
+#   CONFIGURACIÓN GENERAL
+# -------------------------
+[params]
+  env = "production"
+  description = "Un blog minimalista estilo TinyProject"
+  author = "AlanosSL"
+
+  # Estilo limpio
+  defaultTheme = "light"
+  disableThemeToggle = true
+  ShowReadingTime = false
+  ShowBreadCrumbs = false
+  ShowPostNavLinks = false
+  ShowCodeCopyButtons = false
+  ShowToc = false
+  ShowPostIcons = false
+  hideFooter = true
+
+  # Activar CSS personalizado (si lo usas)
+  assets = { customCSS = ["css/extended/custom.css"] }
+
+# -------------------------
+#   MENÚ SUPERIOR
+# -------------------------
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 1
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 2
+
+# -------------------------
+#   CACHE (opcional)
+# -------------------------
 [caches]
   [caches.images]
-    dir = ':cacheDir/images'
-
-[params]
-  description = 'Cartas escritas para personas reales'
-  author = 'Human Post'
-
-[[menus.main]]
-  name = 'Inicio'
-  pageRef = '/'
-  weight = 10
-
-[[menus.main]]
-  name = 'Archivo'
-  pageRef = '/posts'
-  weight = 20
-
-[[menus.main]]
-  name = 'Sobre nosotros'
-  pageRef = '/about'
-  weight = 30
+    dir = ":cacheDir/images"
