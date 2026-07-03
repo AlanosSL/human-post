@@ -1,4 +1,7 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://AlanosSL.github.io/human-post/'
 locale = 'en-us'
 title = 'My New Hugo Project'
 theme = 'ananke'
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
