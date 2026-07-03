@@ -1,4 +1,22 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
-theme = 'ananke'
+baseURL = '/'
+languageCode = 'es'
+title = 'Human Post'
+
+[params]
+  description = 'Cartas escritas para personas reales'
+  author = 'Human Post'
+
+[[menus.main]]
+  name = 'Inicio'
+  pageRef = '/'
+  weight = 10
+
+[[menus.main]]
+  name = 'Archivo'
+  pageRef = '/posts'
+  weight = 20
+
+[[menus.main]]
+  name = 'Sobre nosotros'
+  pageRef = '/about'
+  weight = 30

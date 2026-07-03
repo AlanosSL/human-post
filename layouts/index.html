@@ -1,0 +1,36 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="container">
+    <span class="hero-icon" aria-hidden="true">✉</span>
+    <h1 class="hero-title">{{ .Site.Title }}</h1>
+    <p class="hero-sub">{{ .Site.Params.description }}</p>
+    <hr class="hero-divider">
+  </div>
+</section>
+
+<section class="posts-section">
+  <div class="container">
+    <p class="section-label">Últimas cartas</p>
+    <div class="posts-list">
+      {{ range .Site.RegularPages.ByDate.Reverse }}
+      <article class="post-card">
+        <div class="post-meta">
+          <time class="post-date" datetime="{{ .Date.Format "2006-01-02" }}">
+            {{ .Date.Format "02" }}<br>{{ .Date.Format "Jan" }}<br>{{ .Date.Format "2006" }}
+          </time>
+        </div>
+        <div class="post-body">
+          <h2 class="post-title">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </h2>
+          {{ with .Summary }}
+          <p class="post-excerpt">{{ . | plainify | truncate 160 }}</p>
+          {{ end }}
+          <a href="{{ .RelPermalink }}" class="read-more">Leer carta <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

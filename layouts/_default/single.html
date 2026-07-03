@@ -1,0 +1,28 @@
+{{ define "main" }}
+<article class="single-post">
+  <div class="container">
+
+    <header class="post-header">
+      <div class="post-stamp" aria-hidden="true">
+        <span class="stamp-date">{{ .Date.Format "Jan" }}<br>{{ .Date.Format "2006" }}</span>
+      </div>
+      <h1 class="post-title-large">{{ .Title }}</h1>
+      <p class="post-byline">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">
+          {{ .Date.Day }} de {{ .Date.Format "January" }} de {{ .Date.Year }}
+        </time>
+        {{ with .Params.author }} · <span>{{ . }}</span>{{ end }}
+      </p>
+    </header>
+
+    <div class="post-content">
+      {{ .Content }}
+    </div>
+
+    <footer class="post-footer">
+      <a href="/posts/" class="back-link">← Volver al archivo</a>
+    </footer>
+
+  </div>
+</article>
+{{ end }}
