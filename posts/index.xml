@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Human Post</title>
+    <link>https://alanossl.github.io/human-post/posts/</link>
+    <description>Recent content on Human Post</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://alanossl.github.io/human-post/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Primer Post</title>
+      <link>https://alanossl.github.io/human-post/posts/primer-post/</link>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://alanossl.github.io/human-post/posts/primer-post/</guid>
+      <description>Un primer post para arrancar Human Post</description>
+    </item>
+    <item>
+      <title>Cartas que nunca enviamos</title>
+      <link>https://alanossl.github.io/human-post/posts/cartas-que-nunca-enviamos/</link>
+      <pubDate>Fri, 21 Jun 2024 08:30:00 +0200</pubDate>
+      <guid>https://alanossl.github.io/human-post/posts/cartas-que-nunca-enviamos/</guid>
+      <description>&lt;p&gt;Todos tenemos cartas sin enviar. Palabras que escribimos en nuestra cabeza pero que nunca llegaron a papel. Conversaciones que postergamos hasta que fue demasiado tarde.&lt;/p&gt;
+&lt;h2 id=&#34;el-peso-del-no-dicho&#34;&gt;El peso del no dicho&lt;/h2&gt;
+&lt;p&gt;No decir algo que necesitaba decirse tiene un coste. Se acumula. Se transforma en distancia, en malentendidos, en esa sensación de que hay algo pendiente entre dos personas que antes estaban cerca.&lt;/p&gt;
+&lt;p&gt;A veces la carta que más importa es la que más cuesta escribir.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El arte de escuchar de verdad</title>
+      <link>https://alanossl.github.io/human-post/posts/el-arte-de-escuchar/</link>
+      <pubDate>Fri, 08 Mar 2024 09:00:00 +0100</pubDate>
+      <guid>https://alanossl.github.io/human-post/posts/el-arte-de-escuchar/</guid>
+      <description>&lt;p&gt;La mayoría de las conversaciones son dos monólogos alternados. Mientras el otro habla, ya estamos construyendo nuestra respuesta. No escuchamos para entender; escuchamos para contestar.&lt;/p&gt;
+&lt;h2 id=&#34;escuchar-es-difícil&#34;&gt;Escuchar es difícil&lt;/h2&gt;
+&lt;p&gt;Escuchar de verdad requiere algo que escasea: presencia. Apagar el ruido interior, soltar la urgencia de opinar, y simplemente acompañar al otro en lo que está diciendo.&lt;/p&gt;
+&lt;p&gt;Los mejores oyentes tienen algo en común: hacen preguntas que demuestran que estuvieron ahí. No preguntas genéricas, sino preguntas que conectan con lo específico de lo que acabas de contar.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El valor de escribir cartas</title>
+      <link>https://alanossl.github.io/human-post/posts/my-first-post/</link>
+      <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
+      <guid>https://alanossl.github.io/human-post/posts/my-first-post/</guid>
+      <description>&lt;p&gt;Hay algo que se pierde cuando mandamos un mensaje de voz o un emoji. No es solo el tiempo que dedicamos, sino la intención que deja huella en el papel.&lt;/p&gt;
+&lt;h2 id=&#34;por-qué-las-cartas-importan&#34;&gt;Por qué las cartas importan&lt;/h2&gt;
+&lt;p&gt;Escribir una carta obliga a detenerse. A pensar. A elegir las palabras con cuidado, sabiendo que no hay botón de borrar una vez que el sobre está cerrado.&lt;/p&gt;
+&lt;p&gt;En un mundo donde la comunicación se mide en milisegundos, escribir a mano es un acto casi radical. Es decirle a alguien: &lt;em&gt;dediqué tiempo a pensar en ti&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
